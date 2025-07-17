@@ -25,7 +25,7 @@ const Hero = () => {
                             whileInView="visible"
                             className="pb-6 text-4xl font-thin tracking-tight sm:text-5xl lg:pb-8 lg:mt-12 lg:text-7xl"
                         >
-                            John Doe
+                            Paneri Fulbandhe
                         </motion.h1>
                         <motion.span
                             variants={container(0.5)}
@@ -33,7 +33,7 @@ const Hero = () => {
                             whileInView="visible"
                             className="bg-gradient-to-r from-cyan-400 via-slate-500 to-cyan-600 bg-clip-text text-2xl tracking-tight text-transparent sm:text-3xl"
                         >
-                            Senior Software Engineer
+                            Computer Science Engineering Student
                         </motion.span>
                         <motion.p
                             variants={container(1)}
@@ -53,7 +53,7 @@ const Hero = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
                             src={profilePic}
-                            alt="Saniya Imroze"
+                            alt="Paneri Fulbandhe"
                             className="h-25 w-25 rounded-t-2xl object-cover"
                         />
                     </div>
